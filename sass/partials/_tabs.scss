@@ -1,0 +1,25 @@
+.cards{
+    margin-bottom: 50px;
+
+    .nav-link {
+        color: getColour(primary);
+        text-decoration: none;
+    }
+    .nav-link:visited {
+        color: getColour(primary);
+    }
+
+    .tab-pane {
+        color: getColour(accent);
+        background-color: getColour(secondary);
+    }
+    .active {
+        border-color: #D1D1D1;
+        background-color: getColour(secondary);
+    }
+    .fab, .card__share {
+        color: getColour(black);
+        text-transform: uppercase;
+    }
+    
+}

@@ -1,0 +1,39 @@
+nav {
+    background-color: getColour(lightgrey);
+
+  a {
+    text-decoration: none;
+    color: getColour(black);
+    font-size: 16px;
+
+  }
+    a.active {
+    background-color: getColour(secondary);
+    border-radius: 3px 3px 3px 3px;
+
+  }
+
+
+    .navbar-brand {
+        color: getColour(primary);
+        font-family: $font-header;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 20px;
+        cursor: default;
+    }
+          .nav-link:visited {
+      color: getColour(black);
+  }
+
+  .form-control{
+      border: none;
+      border-radius: 4px 0px 0px 4px;
+      color: getColour(accent);
+  }
+  .btn {
+    background-color: getColour(primary);
+    color: getColour(secondary);
+    border-radius: 0px 4px 4px 0px;
+}
+}

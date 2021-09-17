@@ -1,0 +1,37 @@
+.card {
+
+.card-header {
+    border: none;
+}
+    .nav-link {
+        color: getColour(primary);
+
+    }
+    .nav-pills {
+
+    .nav-link {    
+    border: solid 1px;
+    }
+    
+    .active {
+        background-color: getColour(primary);
+        border: solid 1px getColour(primary);
+    }
+}
+}
+
+.card__items {
+
+
+    .card {
+        border: none;
+
+        .card-body {
+            text-align: left;
+        }
+        .btn {
+            background-color: getColour(primary);
+            border: none;
+        }
+    }
+}

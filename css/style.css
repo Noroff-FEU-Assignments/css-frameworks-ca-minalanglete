@@ -1,4 +1,147 @@
+nav {
+  background-color: #EFEFEF;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0A0A0A;
+  font-size: 16px;
+}
+
+nav a.active {
+  background-color: #FFFFFF;
+  border-radius: 3px 3px 3px 3px;
+}
+
+nav .navbar-brand {
+  color: #E92569;
+  font-family: "playfair display", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  cursor: default;
+}
+
+nav .nav-link:visited {
+  color: #0A0A0A;
+}
+
+nav .form-control {
+  border: none;
+  border-radius: 4px 0px 0px 4px;
+  color: #767676;
+}
+
+nav .btn {
+  background-color: #E92569;
+  color: #FFFFFF;
+  border-radius: 0px 4px 4px 0px;
+}
+
+form {
+  background-color: #EFEFEF;
+  max-width: 555px;
+  max-height: 760px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form .form-control, form .input-group-text {
+  border: none;
+}
+
+form .input-group-text {
+  background-color: #C7C7C7;
+  color: #FFFFFF;
+  width: 84px;
+}
+
+form .form-check-input {
+  background-color: #E92569;
+  border: none;
+  width: 34px;
+  height: 33px;
+}
+
+form .form-website {
+  width: 488px;
+}
+
+form .form-check-label {
+  height: 33px;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+
+.form_container .btn {
+  background-color: #767676;
+  border: none;
+  font-size: 22px;
+  width: 487px;
+  height: 58px;
+}
+
+footer {
+  background: #FFFFFF;
+  color: #767676;
+}
+
+.card .card-header {
+  border: none;
+}
+
+.card .nav-link {
+  color: #E92569;
+}
+
+.card .nav-pills .nav-link {
+  border: solid 1px;
+}
+
+.card .nav-pills .active {
+  background-color: #E92569;
+  border: solid 1px #E92569;
+}
+
+.card__items .card {
+  border: none;
+}
+
+.card__items .card .card-body {
+  text-align: left;
+}
+
+.card__items .card .btn {
+  background-color: #E92569;
+  border: none;
+}
+
+.carousel-indicators button {
+  border-top: 0px;
+}
+
+.carousel-indicators .active {
+  background-color: #E92569;
+}
+
+.carousel-indicators .carousel__block {
+  opacity: 1;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+}
+
 body {
-  color: getColour(accent);
+  color: #767676;
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  background-image: radial-gradient(circle at center, #FFFFFF, #E5E5E5);
+}
+
+h1 {
+  font-size: 34px;
+  font-family: "playfair display", serif;
+  color: #E92569;
 }
 /*# sourceMappingURL=style.css.map */

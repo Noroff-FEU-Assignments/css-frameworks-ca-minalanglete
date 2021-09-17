@@ -1,3 +1,12 @@
 body {
     color: getColour(accent);
+    font-family: "lato", sans-serif;
+    font-size: 16px;
+    background-image: radial-gradient(circle at center, getColour(secondary), #E5E5E5);
+}
+
+h1 {
+    font-size: 34px;
+    font-family: $font-header;
+    color: getColour(primary);
 }

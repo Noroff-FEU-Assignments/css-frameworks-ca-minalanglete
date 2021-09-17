@@ -1,0 +1,43 @@
+form {
+
+    background-color: getColour(lightgrey);
+    max-width: 555px;
+    max-height: 760px;
+    padding: 20px;
+    border-radius: 10px;
+
+
+    .form-control, .input-group-text {
+        border: none;
+    }
+    .input-group-text{
+        background-color: getColour(grey);
+        color: getColour(secondary);
+        width: 84px;
+    }
+    .form-check-input {
+        background-color: getColour(primary);
+        border: none;
+        width: 34px;
+        height: 33px;
+    }
+    .form-website{
+        width: 488px;
+    }
+    .form-check-label {
+        height: 33px;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+}
+
+.form_container {
+    .btn {
+        background-color: getColour(accent);
+        border: none;
+        font-size: 22px;
+        width: 487px;
+        height: 58px;
+    }
+}
