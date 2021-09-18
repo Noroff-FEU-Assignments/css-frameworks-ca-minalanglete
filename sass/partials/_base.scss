@@ -1,3 +1,5 @@
+
+
 body {
     color: getColour(accent);
     font-family: "lato", sans-serif;
@@ -9,4 +11,11 @@ h1 {
     font-size: 34px;
     font-family: $font-header;
     color: getColour(primary);
+}
+main {
+    padding: 70px 70px 247px 70px;
+
+    .text__home {
+        padding-bottom: 78px;
+    }
 }

@@ -38,64 +38,64 @@
                 
             </ul>
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn" type="submit">Go</button>
             </form>
             </div>
         </div>
     </nav>
 
-
+<main>
 
     <h1>Submit your details</h1>
 
-
-<form>
+<div class="contact">
+<form class="form">
 
     <div class="form_container">
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Name</label>
-  <input type="name" class="form-control" id="exampleFormControlInput1">
-</div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    
-  </div>
-<label for="basic-url" class="form-label">Website</label>
-  <div class="input-group mb-3">
-  <span class="input-group-text" id="basic-addon1">https://</span>
-  <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
-</div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="name" class="form-control form__name" id="exampleFormControlInput1">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control form__email" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <label for="basic-url" class="form-label">Website</label>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">https://</span>
+            <input type="text" class="form-control form__website"  aria-label="Username" aria-describedby="basic-addon1">
+        </div>
 
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
-
-
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Allow us to sell your personal details to whomever we want</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control form__message" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Allow us to sell your personal details to whomever we want</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        
+    </div>
 </form>
+<div class="contact__info">
 
+            <div class="info__mail"><i class="fas fa-envelope"></i><div>hello@yay.com</div></div>
+            <div class="info__phone"><i class="fas fa-phone-alt fa-flip-horizontal"></i><div>123 456 7890</div></div>
+            <div class="info__adress"><i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <p>123 Some Street</p> 
+                    <p>Somewhere</p>
+                    <p>Some City</p>
+                    <p>10000</p>
+                </div>
+            </div>
 </div>
-
-<div>
-    <i class="fas fa-envelope"></i><div>hello@yay.com</div>
-    <i class="fas fa-phone-alt fa-flip-horizontal"></i><div>123 456 7890</div>
-    <i class="fas fa-map-marker-alt"></i><div>123 Some Street
-Somewhere
-Some City
-10000</div>
-
-
-
 </div>
+</main>
 <footer>
-    <div class="container">
+    <div class="container__footer">
         <div class="container__item"><i class="fab fa-vimeo-v"></i><i class="fab fa-youtube"></i></div>
         <div class="container__item">hello@yay.com</div>
         <div class="container__item">Copyright 2020</div>

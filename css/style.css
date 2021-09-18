@@ -1,5 +1,8 @@
 nav {
   background-color: #EFEFEF;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 70px;
 }
 
 nav a {
@@ -20,6 +23,7 @@ nav .navbar-brand {
   font-style: italic;
   font-size: 20px;
   cursor: default;
+  padding-right: 40px;
 }
 
 nav .nav-link:visited {
@@ -38,39 +42,65 @@ nav .btn {
   border-radius: 0px 4px 4px 0px;
 }
 
-form {
+nav .nav-item {
+  padding-right: 35px;
+}
+
+.me-2 {
+  margin-right: 0px;
+}
+
+.form {
   background-color: #EFEFEF;
   max-width: 555px;
   max-height: 760px;
-  padding: 20px;
+  padding: 35px;
   border-radius: 10px;
+  -webkit-box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
 }
 
-form .form-control, form .input-group-text {
+.form .form-control, .form .input-group-text {
   border: none;
 }
 
-form .input-group-text {
+.form .input-group-text {
   background-color: #C7C7C7;
   color: #FFFFFF;
   width: 84px;
 }
 
-form .form-check-input {
+.form .form-check-input {
   background-color: #E92569;
   border: none;
   width: 34px;
   height: 33px;
 }
 
-form .form-website {
+.form .form-website {
   width: 488px;
 }
 
-form .form-check-label {
+.form .form-check-label {
   height: 33px;
   padding-left: 20px;
   padding-top: 8px;
+}
+
+.form .form__name, .form .form__email {
+  width: 487px;
+  height: 56px;
+}
+
+.form .form__website {
+  max-width: 403px;
+  height: 56px;
+}
+
+.form .form__message {
+  width: 487px;
+  height: 224px;
 }
 
 .form_container .btn {
@@ -81,9 +111,63 @@ form .form-check-label {
   height: 58px;
 }
 
+.info__mail, .info__phone, .info__adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.info__mail p, .info__phone p, .info__adress p {
+  margin-bottom: 0px;
+}
+
+.info__mail .fas, .info__phone .fas, .info__adress .fas {
+  font-size: 30px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  gap: 20px;
+}
+
+.contact .contact__info {
+  padding-left: 68px;
+  padding-top: 60px;
+}
+
 footer {
   background: #FFFFFF;
   color: #767676;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+footer .container__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+  height: 53px;
+}
+
+footer .container__footer .fab {
+  font-size: 40px;
+  padding-left: 15px;
 }
 
 .card .card-header {
@@ -132,6 +216,72 @@ footer {
   border-radius: 3px;
 }
 
+.cards {
+  margin-bottom: 50px;
+}
+
+.cards .nav-link {
+  color: #E92569;
+  text-decoration: none;
+}
+
+.cards .nav-link:visited {
+  color: #E92569;
+}
+
+.cards .tab-pane {
+  color: #767676;
+  background-color: #FFFFFF;
+  padding: 40px 77px 83px 50px;
+  border-radius: 0px 10px 10px 10px;
+}
+
+.cards .active {
+  background-color: #FFFFFF;
+}
+
+.cards .fab, .cards .card__share {
+  color: #0A0A0A;
+  text-transform: uppercase;
+}
+
+.cards .nav-link.active {
+  border-color: #D1D1D1;
+  border-bottom: none;
+}
+
+.cards ul {
+  border: none;
+}
+
+.cards .tab-content {
+  background-image: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  border-radius: 0px 10px 10px 10px;
+  -webkit-box-shadow: 0px 16px 22px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 16px 22px rgba(0, 0, 0, 0.1);
+}
+
+.cards img {
+  float: left;
+  padding-right: 30px;
+  height: 149px;
+}
+
+.cards .card__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  gap: 20px;
+}
+
+.cards .fab {
+  font-size: 25px;
+}
+
 body {
   color: #767676;
   font-family: "lato", sans-serif;
@@ -143,5 +293,13 @@ h1 {
   font-size: 34px;
   font-family: "playfair display", serif;
   color: #E92569;
+}
+
+main {
+  padding: 70px 70px 247px 70px;
+}
+
+main .text__home {
+  padding-bottom: 78px;
 }
 /*# sourceMappingURL=style.css.map */

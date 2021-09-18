@@ -1,5 +1,8 @@
 nav {
     background-color: getColour(lightgrey);
+    padding-left: 70px;
+    padding-right: 70px;
+    height: 70px;
 
   a {
     text-decoration: none;
@@ -10,7 +13,6 @@ nav {
     a.active {
     background-color: getColour(secondary);
     border-radius: 3px 3px 3px 3px;
-
   }
 
 
@@ -21,6 +23,7 @@ nav {
         font-style: italic;
         font-size: 20px;
         cursor: default;
+        padding-right: 40px;
     }
           .nav-link:visited {
       color: getColour(black);
@@ -36,4 +39,11 @@ nav {
     color: getColour(secondary);
     border-radius: 0px 4px 4px 0px;
 }
+.nav-item {
+    padding-right: 35px;
+}
+}
+
+.me-2 {
+    margin-right: 0px;
 }
