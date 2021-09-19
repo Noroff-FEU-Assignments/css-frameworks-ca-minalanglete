@@ -1,12 +1,12 @@
 .cards{
     margin-bottom: 50px;
     
-
     .nav-link {
         color: getColour(primary);
         text-decoration: none;
 
     }
+
     .nav-link:visited {
         color: getColour(primary);
     }
@@ -17,43 +17,45 @@
         padding: 40px 77px 83px 50px;
         border-radius: 0px 10px 10px 10px;
     }
+
     .active {
         background-color: getColour(secondary);
         
     }
+
     .fab, .card__share {
         color: getColour(black);
         text-transform: uppercase;
     }
+
     .nav-link.active {
         border-color:#D1D1D1;
         border-bottom: 1px solid getColour(secondary);
     }
+
     ul {
      border: none;
     }
+
     .tab-content {
     background-image: getColour(secondary);
     border: 1px solid #D1D1D1;
     border-radius: 0px 10px 10px 10px;
     box-shadow: (0px 16px 22px rgba(0, 0, 0, 0.1));
+    }
 
+    img {
+        float: left;
+        padding-right: 30px;
+        height: 149px;
+    }
 
-
-}
-
-img {
-    float: left;
-    padding-right: 30px;
-    height: 149px;
-}
-
-.card__icon {
-    display: flex;
-    justify-content: left;
-    gap: 20px;
-}
-.fab {
-    font-size: 25px;
-}
+    .card__icon {
+        display: flex;
+        justify-content: left;
+        gap: 20px;
+    }
+    .fab {
+        font-size: 25px;
+    }
 }

@@ -1,20 +1,23 @@
 .carousel-indicators{
 
-button {
-    border-top: 0px;
-}    
+     @media (max-width: 460px) {
+        display: none;
+        }
 
-.active{
-    background-color: getColour(primary);
-}
+    button {
+        border-top: 0px;
+        }    
 
-.carousel__block {
-    opacity: 1;
-    width: 30px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    margin-right: 15px;
-}
+    .active{
+        background-color: getColour(primary);
+    }
 
+    .carousel__block {
+        opacity: 1;
+        width: 30px;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        margin-right: 15px;
+    }
 }

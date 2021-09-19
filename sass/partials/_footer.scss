@@ -1,26 +1,26 @@
 footer {
-  background: getColour(secondary);
-  color: getColour(accent);
-  flex-shrink: 0;
+    background: getColour(secondary);
+    color: getColour(accent);
+    flex-shrink: 0;
 
-  .container__footer {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 10px;
-    height: 53px;
+    .container__footer {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 10px;
+        height: 53px;
 
-    @media (max-width: 470px) {
-      display: block;
-      text-align: center;
-      margin-top: 10px;
-      height: 164px;
+            @media (max-width: 470px) {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            height: 164px;
+            }
+
+            .fab {
+                font-size: 40px;
+                padding-left: 15px;
+            }
     }
-
-    .fab {
-        font-size: 40px;
-        padding-left: 15px;
-    }
-  }
 } 

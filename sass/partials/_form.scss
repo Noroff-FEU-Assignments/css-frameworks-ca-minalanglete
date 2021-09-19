@@ -8,16 +8,16 @@
     box-shadow: (0px 6px 6px rgba(0, 0, 0, 0.1));
     margin-top: 40px;
 
-                @media (max-width: 945px) {
-                    width: 414px;
-                    max-height: 800px;
-                    background-color: none;
-                }
-           
+        @media (max-width: 945px) {
+            width: 414px;
+            max-height: 800px;
+            background-color: none;
+        }  
 
     .form-control, .input-group-text {
         border: none;
     }
+
     .input-group-text{
         background-color: getColour(grey);
         color: getColour(secondary);
@@ -25,56 +25,60 @@
 
         @media (max-width: 945px) {
             display: none;
-        }
-        
+        } 
     }
+
     .form-check-input {
         background-color: getColour(primary);
         border: none;
         width: 34px;
         height: 33px;
     }
+
     .form-website{
         width: 488px;
-
     }
+
     .form-check-label {
         height: 33px;
         padding-left: 20px;
         padding-top: 8px;
 
-                        @media (max-width: 945px) {
-                    width: 346px;
-                }
+        @media (max-width: 945px) {
+            width: 346px;
+        }
     }
+
     .form__name, .form__email {
         width: 487px;
         height: 56px;
 
         @media (max-width: 945px) {
-                    width: 346px;
-                }
+            width: 346px;
+        }
     }
+
     .form__website {
         max-width: 403px;
         height: 56px;
 
-                @media (max-width: 945px) {
-                    max-width: 346px;
-                }
+            @media (max-width: 945px) {
+                max-width: 346px;
+            }
     }
+
     .form__message {
         width: 487px;
         height: 224px;
 
-                @media (max-width: 945px) {
-                    width: 346px;
-                }
+            @media (max-width: 945px) {
+                width: 346px;
+            }
     }
-
 }
 
 .form_container {
+    
     .btn {
         background-color: getColour(accent);
         border: none;
@@ -82,11 +86,12 @@
         width: 487px;
         height: 58px;
 
-                @media (max-width: 945px) {
-                    width: 346px;
-                }
+            @media (max-width: 945px) {
+                width: 346px;
+            }
     }
 }
+
 .info__mail, .info__phone, .info__adress {
     display: flex;
     justify-content: left;
@@ -94,43 +99,41 @@
     padding-bottom: 30px;
 
     p{
-        margin-bottom: 0px;
-        
+        margin-bottom: 0px;    
     }
 
     .fas {
         font-size: 30px;
     }
 }
+
 .contact {
-        display: flex;
+    display: flex;
     justify-content: left;
     gap: 20px;
 
-            @media (max-width: 945px) {
-                    display: block;
-                }
+        @media (max-width: 945px) {
+            display: block;
+        }
 
     .contact__info {
         padding-left: 68px;
-        padding-top: 60px;
-
-        
-        
+        padding-top: 60px;   
     }
 }
 
 .main__contact {
 
     @media (max-width: 945px) {
-    max-width: 100%;
-    margin:auto;
-    padding-left: 0px;
-}
+        max-width: 100%;
+        margin:auto;
+        padding-left: 0px;
+    }
 
     h1 {
-           @media (max-width: 945px) {
-    padding-left: 31px;
-}
+           
+    @media (max-width: 945px) {
+        padding-left: 31px;
     }
+}
 }

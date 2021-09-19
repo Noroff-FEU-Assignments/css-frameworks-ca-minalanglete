@@ -6,51 +6,51 @@
         }
     }
 
-.card-header {
-    border: none;
-    background: none;
-    padding-bottom: 40px;
-}
+    .card-header {
+        border: none;
+        background: none;
+        padding-bottom: 40px;
+    }
+
     .nav-link {
         color: getColour(primary);
         background-color: getColour(secondary);
 
     }
+
     .nav-pills {
         
-
-    .nav-link {    
-    border: solid 1px;
-    border-radius: 0px;
-    }
-        .item__1 {
-        border-radius: 4px 0px 0px 4px;
-    }
-
-        .item__4 {
-        border-radius: 0px 4px 4px 0px;
-    }
-    .active {
-        background-color: getColour(primary);
-        border: solid 1px getColour(primary);
-    }
-}
-
-.col-sm-3 {
-    width: 264px;
-    max-height: 394px;
-    padding-bottom: 33px;
-
-    @media (max-width: 643px) {
-        width: 342px;
-        padding-left: 0px;
+        .nav-link {    
+        border: solid 1px;
+        border-radius: 0px;
         }
-}
+            .item__1 {
+            border-radius: 4px 0px 0px 4px;
+        }
+
+            .item__4 {
+            border-radius: 0px 4px 4px 0px;
+        }
+        .active {
+            background-color: getColour(primary);
+            border: solid 1px getColour(primary);
+        }
+    }
+
+    .col-sm-3 {
+        width: 264px;
+        max-height: 394px;
+        padding-bottom: 33px;
+
+        @media (max-width: 643px) {
+            width: 342px;
+            padding-left: 0px;
+            }
+    }
 
 }
 
 .card__items {
-
 
     .card {
         border: none;
