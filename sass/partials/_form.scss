@@ -8,7 +8,12 @@
     box-shadow: (0px 6px 6px rgba(0, 0, 0, 0.1));
     margin-top: 40px;
 
-
+                @media (max-width: 945px) {
+                    width: 414px;
+                    max-height: 800px;
+                    background-color: none;
+                }
+           
 
     .form-control, .input-group-text {
         border: none;
@@ -17,6 +22,11 @@
         background-color: getColour(grey);
         color: getColour(secondary);
         width: 84px;
+
+        @media (max-width: 945px) {
+            display: none;
+        }
+        
     }
     .form-check-input {
         background-color: getColour(primary);
@@ -26,23 +36,40 @@
     }
     .form-website{
         width: 488px;
+
     }
     .form-check-label {
         height: 33px;
         padding-left: 20px;
         padding-top: 8px;
+
+                        @media (max-width: 945px) {
+                    width: 346px;
+                }
     }
     .form__name, .form__email {
         width: 487px;
         height: 56px;
+
+        @media (max-width: 945px) {
+                    width: 346px;
+                }
     }
     .form__website {
         max-width: 403px;
         height: 56px;
+
+                @media (max-width: 945px) {
+                    max-width: 346px;
+                }
     }
     .form__message {
         width: 487px;
         height: 224px;
+
+                @media (max-width: 945px) {
+                    width: 346px;
+                }
     }
 
 }
@@ -54,6 +81,10 @@
         font-size: 22px;
         width: 487px;
         height: 58px;
+
+                @media (max-width: 945px) {
+                    width: 346px;
+                }
     }
 }
 .info__mail, .info__phone, .info__adress {
@@ -64,6 +95,7 @@
 
     p{
         margin-bottom: 0px;
+        
     }
 
     .fas {
@@ -75,8 +107,30 @@
     justify-content: left;
     gap: 20px;
 
+            @media (max-width: 945px) {
+                    display: block;
+                }
+
     .contact__info {
         padding-left: 68px;
         padding-top: 60px;
+
+        
+        
+    }
+}
+
+.main__contact {
+
+    @media (max-width: 945px) {
+    max-width: 100%;
+    margin:auto;
+    padding-left: 0px;
+}
+
+    h1 {
+           @media (max-width: 945px) {
+    padding-left: 31px;
+}
     }
 }

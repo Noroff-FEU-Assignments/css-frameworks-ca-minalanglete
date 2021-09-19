@@ -15,7 +15,15 @@ h1 {
 main {
     padding: 70px 70px 247px 70px;
 
+    @media (max-width: 470px) {
+        padding: 31px 31px 176px 31px;
+    }    
+
     .text__home {
         padding-bottom: 78px;
     }
+}
+
+.news {
+    padding-left: 10px;
 }

@@ -4,6 +4,21 @@ nav {
     padding-right: 70px;
     height: 70px;
 
+        @media (max-width: 470px) {
+            padding-left: 31px;
+            padding-right: 31px;
+    }  
+
+    .fas {
+        color: getColour(accent);
+    }
+.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: getColour(lightgrey);
+    padding-left: 31px;
+}
+
   a {
     text-decoration: none;
     color: getColour(black);
@@ -44,6 +59,3 @@ nav {
 }
 }
 
-.me-2 {
-    margin-right: 0px;
-}

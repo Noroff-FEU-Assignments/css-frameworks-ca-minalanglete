@@ -5,6 +5,27 @@ nav {
   height: 70px;
 }
 
+@media (max-width: 470px) {
+  nav {
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+}
+
+nav .fas {
+  color: #767676;
+}
+
+nav .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #EFEFEF;
+  padding-left: 31px;
+}
+
 nav a {
   text-decoration: none;
   color: #0A0A0A;
@@ -46,10 +67,6 @@ nav .nav-item {
   padding-right: 35px;
 }
 
-.me-2 {
-  margin-right: 0px;
-}
-
 .form {
   background-color: #EFEFEF;
   max-width: 555px;
@@ -61,6 +78,14 @@ nav .nav-item {
   margin-top: 40px;
 }
 
+@media (max-width: 945px) {
+  .form {
+    width: 414px;
+    max-height: 800px;
+    background-color: none;
+  }
+}
+
 .form .form-control, .form .input-group-text {
   border: none;
 }
@@ -69,6 +94,12 @@ nav .nav-item {
   background-color: #C7C7C7;
   color: #FFFFFF;
   width: 84px;
+}
+
+@media (max-width: 945px) {
+  .form .input-group-text {
+    display: none;
+  }
 }
 
 .form .form-check-input {
@@ -88,9 +119,21 @@ nav .nav-item {
   padding-top: 8px;
 }
 
+@media (max-width: 945px) {
+  .form .form-check-label {
+    width: 346px;
+  }
+}
+
 .form .form__name, .form .form__email {
   width: 487px;
   height: 56px;
+}
+
+@media (max-width: 945px) {
+  .form .form__name, .form .form__email {
+    width: 346px;
+  }
 }
 
 .form .form__website {
@@ -98,9 +141,21 @@ nav .nav-item {
   height: 56px;
 }
 
+@media (max-width: 945px) {
+  .form .form__website {
+    max-width: 346px;
+  }
+}
+
 .form .form__message {
   width: 487px;
   height: 224px;
+}
+
+@media (max-width: 945px) {
+  .form .form__message {
+    width: 346px;
+  }
 }
 
 .form_container .btn {
@@ -109,6 +164,12 @@ nav .nav-item {
   font-size: 22px;
   width: 487px;
   height: 58px;
+}
+
+@media (max-width: 945px) {
+  .form_container .btn {
+    width: 346px;
+  }
 }
 
 .info__mail, .info__phone, .info__adress {
@@ -140,9 +201,29 @@ nav .nav-item {
   gap: 20px;
 }
 
+@media (max-width: 945px) {
+  .contact {
+    display: block;
+  }
+}
+
 .contact .contact__info {
   padding-left: 68px;
   padding-top: 60px;
+}
+
+@media (max-width: 945px) {
+  .main__contact {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 945px) {
+  .main__contact h1 {
+    padding-left: 31px;
+  }
 }
 
 footer {
@@ -165,26 +246,68 @@ footer .container__footer {
   height: 53px;
 }
 
+@media (max-width: 470px) {
+  footer .container__footer {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    height: 164px;
+  }
+}
+
 footer .container__footer .fab {
   font-size: 40px;
   padding-left: 15px;
 }
 
+@media (max-width: 643px) {
+  .card .row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .card .card-header {
   border: none;
+  background: none;
+  padding-bottom: 40px;
 }
 
 .card .nav-link {
   color: #E92569;
+  background-color: #FFFFFF;
 }
 
 .card .nav-pills .nav-link {
   border: solid 1px;
+  border-radius: 0px;
+}
+
+.card .nav-pills .item__1 {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.card .nav-pills .item__4 {
+  border-radius: 0px 4px 4px 0px;
 }
 
 .card .nav-pills .active {
   background-color: #E92569;
   border: solid 1px #E92569;
+}
+
+.card .col-sm-3 {
+  width: 264px;
+  max-height: 394px;
+  padding-bottom: 33px;
+}
+
+@media (max-width: 643px) {
+  .card .col-sm-3 {
+    width: 342px;
+    padding-left: 0px;
+  }
 }
 
 .card__items .card {
@@ -193,11 +316,31 @@ footer .container__footer .fab {
 
 .card__items .card .card-body {
   text-align: left;
+  -webkit-box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card__items .card .btn {
   background-color: #E92569;
   border: none;
+  width: 175px;
+  height: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  -webkit-box-shadow: 33px 0px 0px #767676;
+          box-shadow: 33px 0px 0px #767676;
+}
+
+@media (max-width: 643px) {
+  .card__items .card .btn {
+    width: 260px;
+  }
+}
+
+.text-center {
+  border: none;
+  background: none;
 }
 
 .carousel-indicators button {
@@ -214,6 +357,7 @@ footer .container__footer .fab {
   height: 30px;
   border: none;
   border-radius: 3px;
+  margin-right: 15px;
 }
 
 .cards {
@@ -247,7 +391,7 @@ footer .container__footer .fab {
 
 .cards .nav-link.active {
   border-color: #D1D1D1;
-  border-bottom: none;
+  border-bottom: 1px solid #FFFFFF;
 }
 
 .cards ul {
@@ -299,7 +443,17 @@ main {
   padding: 70px 70px 247px 70px;
 }
 
+@media (max-width: 470px) {
+  main {
+    padding: 31px 31px 176px 31px;
+  }
+}
+
 main .text__home {
   padding-bottom: 78px;
+}
+
+.news {
+  padding-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */

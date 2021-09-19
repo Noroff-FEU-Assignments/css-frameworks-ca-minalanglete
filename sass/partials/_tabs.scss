@@ -19,6 +19,7 @@
     }
     .active {
         background-color: getColour(secondary);
+        
     }
     .fab, .card__share {
         color: getColour(black);
@@ -26,7 +27,7 @@
     }
     .nav-link.active {
         border-color:#D1D1D1;
-        border-bottom: none;
+        border-bottom: 1px solid getColour(secondary);
     }
     ul {
      border: none;
@@ -48,7 +49,7 @@ img {
 }
 
 .card__icon {
-        display: flex;
+    display: flex;
     justify-content: left;
     gap: 20px;
 }
