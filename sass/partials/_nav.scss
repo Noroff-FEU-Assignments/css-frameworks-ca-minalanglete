@@ -5,8 +5,8 @@ nav {
     height: 70px;
 
         @media (max-width: 470px) {
-            padding-left: 31px;
-            padding-right: 31px;
+            padding-left: 0px;
+            padding-right: 0px;
     }  
 
     .fas {
@@ -17,6 +17,11 @@ nav {
     flex-wrap: wrap;
     background-color: getColour(lightgrey);
     padding-left: 31px;
+
+            @media (max-width: 470px) {
+            padding-left: 0px;
+            padding-right: 0px;
+    } 
 }
 
   a {
@@ -28,6 +33,10 @@ nav {
     a.active {
     background-color: getColour(secondary);
     border-radius: 3px 3px 3px 3px;
+
+                @media (max-width: 470px) {
+                    border-radius: 0px;
+    } 
   }
 
 
@@ -39,6 +48,10 @@ nav {
         font-size: 20px;
         cursor: default;
         padding-right: 40px;
+
+                    @media (max-width: 470px) {
+            padding-left: 31px;
+    } 
     }
           .nav-link:visited {
       color: getColour(black);
@@ -56,6 +69,14 @@ nav {
 }
 .nav-item {
     padding-right: 35px;
+}
+
+.collapse {
+z-index: 1;
+background-color: getColour(lightgrey);
+padding: 30px;
+max-width: 100%;
+margin: 0px;
 }
 }
 
